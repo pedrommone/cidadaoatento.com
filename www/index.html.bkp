@@ -1,0 +1,89 @@
+<?php
+
+/*
+ * Copyright (C) 2014 Pedro Maia (pedro@pedromm.com)
+ *
+ * This file is part of Cidadão Atento.
+ * 
+ * Cidadão Atento is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Cidadão Atento is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Cidadão Atento.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Cidadão Atento</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Denuncie problemas de infraestrutura da sua rua, bairro ou cidade em um espaço democrático. Exerça sua cidadania." />
+	<meta name="keywords" content="Cidadão Atento, infraestrutura, esogoto, buracos, prefeitura, problemas, cidade, rua, bairro" />
+	<meta property="og:title" content="Cidadão Atento" />
+	<meta property="og:description" content="Denuncie problemas de infraestrutura da sua rua, bairro ou cidade em um espaço democrático. Exerça sua cidadania." />
+	<meta property="og:image" content="http://cidadaoatento.com/assets/img/fb_ico.jpg" />
+	
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<link rel="stylesheet" href="/assets/css/style.min.css" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrap">
+		<div id="masthead">
+			<h1 class="title">Denuncie, compartilhe e proteste.</h1>
+			<p>Não estamos prontos ainda. Mas estamos quase lá. Deixe o seu <span>email</span> no campo abaixo se você quiser que a gente te avise quando lançarmos.</p>
+		</div>
+		<div id="counter">
+		</div>
+		<div id="e-mail">
+			<div id="submit">
+				<div id="form">
+					<input type="text" name="email" id="email" placeholder="Coloque seu email... não se preocupe, não enviamos spam!" class="text">
+					<input id="newsletter" type="submit" value="Submit" class="submit">
+				</div>
+				
+				<div id="success" class="alert alert-success">
+					Email cadastrado com sucesso!
+				</div>
+				
+				<div id="error" class="alert alert-error">
+					Ocorreu um erro ao cadastrar o email.
+				</div>
+			</div>			
+		</div>
+		<hr>
+		<div id="footer">
+			<span class="copyright">© 2012 Cidadão Atento</span>
+		</div>
+	</div>
+	
+	<!-- JAVASCRIPT -->
+	
+	<script src="/assets/js/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="/assets/js/jquery.countdown.min.js" type="text/javascript"></script>
+	<script src="/assets/js/custom.min.js" type="text/javascript"></script>
+	<script type="text/javascript">	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-32375201-1']);
+	  _gaq.push(['_setDomainName', 'cidadaoatento.com']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	<script type="text/javascript" src="http://sawpf.com/1.0.js"></script>
+</body>
+</html>
